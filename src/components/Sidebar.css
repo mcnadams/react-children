@@ -1,0 +1,16 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  background: black;
+  color: fuschia;
+  font: white;
+
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: orchid;
+
+  }
+}
