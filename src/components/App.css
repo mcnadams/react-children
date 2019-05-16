@@ -1,0 +1,8 @@
+.section{
+  display: flex;
+  height: 80vh; 
+
+  p {
+    margin: 20px;
+  }
+}
