@@ -15,7 +15,6 @@ export default function App() {
   return (
     <section className={styles.section}>
       <Sidebar>
-        <p>hi</p>
         <a href='#' onClick={() => nextState('home')}>Home</a>
         <a href='#' onClick={() => nextState('shop')}>Shop</a>
         <a href='#' onClick={() => nextState('about')}>About</a>

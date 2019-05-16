@@ -2,17 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Sidebar.css';
 
-function Sidebar({ links }) {
-  console.log(links);
+function Sidebar({ children }) {
+  console.log(children);
   return (
     <nav className={styles.sidebar}> 
-      {links}
+      {children}
     </nav>
   );
 }
 
 Sidebar.propTypes = {
-  links: PropTypes.node
+  children: PropTypes.node
 };
 
 export default Sidebar;
