@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders a sidebar 1`] = `
+<nav
+  className="sidebar"
+/>
+`;
